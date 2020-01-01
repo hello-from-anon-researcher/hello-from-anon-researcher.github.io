@@ -13,7 +13,7 @@ parent: Artifacts
 ## Automated Blog Crawler
 ---
 
-The source code of our blog crawler is available on [GitHub](https://github.com/anon-icse2019/BlogScrapeUtilities/).
+The source code of our blog crawler is available on [GitHub](https://github.com/hello-from-anon-researcher/BlogScrapeUtilities/).
 
 ## Blog Categorization Split By Years
 ---
