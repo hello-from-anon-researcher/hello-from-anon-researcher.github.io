@@ -6,7 +6,7 @@ description: "???"
 permalink: /
 ---
 
-### Title to be determine
+### Title to be determined
 
 ---
 
