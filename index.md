@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: Spoiled Apples Ruin the Bunch: Anatomy of Google Play Malware
+description: 
 permalink: /
 ---
 
