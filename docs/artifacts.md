@@ -8,6 +8,6 @@ permalink: /docs/artifacts
 
 # Artifacts
 
-We list artifacts from our methodology by 3 separate topics: tool selection, blog extraction, and data set collection. 
+We list artifacts from our methodology by 3 separate topics: malware collection, malware characterization, and data set collection. 
 
 {: .fs-6 .fw-300 }
