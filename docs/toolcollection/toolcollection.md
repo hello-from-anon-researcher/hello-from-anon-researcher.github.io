@@ -4,7 +4,6 @@ title: Tool Collection
 nav_order: 3
 has_children: false
 permalink: /docs/toolcollection
-parent: Artifacts
 ---
 # Tool Collection
 ---
@@ -59,6 +58,6 @@ The security conferences/journals include:
 
 ## Tool Categorization
 
-A detailed list of tools collected is provided within the following [excel sheet](../../../assets/data/excelsheets/MalwareCollectionStatistics.xlsx)
+A detailed list of tools collected from the survey papers and conferences is provided within the following [excel sheet](../../../assets/data/excelsheets/MalwareCollectionStatistics.xlsx)
 
 ---
