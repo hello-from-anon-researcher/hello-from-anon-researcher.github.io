@@ -14,12 +14,8 @@ parent: Artifacts
 
 ## Tool Selection
 
-TODO: Add surveys, conferences + journals
-
 ---
 
 ## Tool Categorization
-
-TODO: Add tools list and mind map
 
 ---
