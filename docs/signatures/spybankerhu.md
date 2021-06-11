@@ -20,4 +20,4 @@ This malware sample contains the ability to phish banking credentials, based on 
 ## Signature
 ---
 
-![](../img/signatures/spybankerhu.png)
+![](../../img/signatures/spybankerhu.png)
