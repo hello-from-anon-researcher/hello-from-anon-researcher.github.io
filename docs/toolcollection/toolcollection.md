@@ -60,7 +60,7 @@ The security conferences/journals include:
 
 The image below lists the categorization of Android security papers found:
 
-![](../img/tools_mind_map.png)
+![](../img/tools_mind_map.PNG)
 
 These categories include:
 
