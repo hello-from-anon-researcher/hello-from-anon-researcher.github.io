@@ -58,7 +58,7 @@ The security conferences/journals include:
 
 ## Tool Categorization
 
-The image below lists the group of 
+The image below lists the categorization of Android security papers found:
 
 ![](../img/tools_mind_map.png)
 
