@@ -8,12 +8,6 @@ permalink: /docs/toolcollection
 # Tool Collection
 ---
 
-## Overview
-
-We detail the collection and categorization of tools within this section.
-
----
-
 ## Tool Selection
 
 The following surveys were initially used to collect the set of Android security papers:
