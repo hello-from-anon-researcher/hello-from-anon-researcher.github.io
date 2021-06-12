@@ -66,6 +66,7 @@ These categories include:
 6. Payloads - Papers aimed to targeting a specific type of payload (ex., info-leak, overlay phishing, privilege escalation)
 7. Repackaged Malware - Papers aimed at detecting repackaged apps
 8. Inter App Attacks - Papers aimed at detecting apps that collude together to perform an attack
+9. Dynamic Loading - Papers aimed at detecting dynamic code loading
 
 Details of the papers within each category can be found within this [excel file](../../../assets/data/excelsheets/Tools.xlsx).
 
