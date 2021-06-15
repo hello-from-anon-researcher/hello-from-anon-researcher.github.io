@@ -6,7 +6,7 @@ digraph "Graph" {
 	5 [label="CC:Environment:Location"]
 	6 [label="EC:System:Developer"]
 	7 [label="DR:Internet"]
-	8 [label="â˜…P:AdAbuse"]
+	8 [label="&#916;P:AdAbuse"]
 	1 -> 2 [label="" style=dotted]
 	2 -> 3 [label="" style=dotted]
 	3 -> 4 [label="" style=dotted]
