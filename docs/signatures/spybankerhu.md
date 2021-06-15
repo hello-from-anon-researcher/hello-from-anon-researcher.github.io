@@ -22,6 +22,6 @@ The malware leaks device information and retrieves commands from the malware dev
 ## Signature
 ---
 
-The image of the signature can be downloaded [here](../../img/signatures/SpyBankerHU.png) for closer inspection.
+The image of the signature can be downloaded [here](../../img/signatures/spybankerhu.png) for closer inspection.
 
-![](../../img/signatures/SpyBankerHU.png)
+![](../../img/signatures/spybankerhu.png)
