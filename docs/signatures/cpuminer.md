@@ -1,25 +1,25 @@
 ---
 layout: default
-title: Fasurke
+title: CPUMiner
 nav_order: 2
 has_children: false
-permalink: /docs/signature/fasurke
+permalink: /docs/signature/cpuminer
 nav_exclude: true
 ---
 
-# Fasurke
+# CPUMiner
 
 ## High-level Description
 
 * Year: 2017
-* File Hash (SHA-256): a9a9afec9b01256afc6b0a8cd91bf23f66c9d5a08dbeb4714c6b73575110cd40
-* Blog: https://www.welivesecurity.com/2016/07/14/fake-apps-google-play-tricked-users-paying-instead-delivering-promised-followers/
+* File Hash (SHA-256): d3c0bed627edab9ac1bbc2bcc6e8c3ff45b4708afa527790e42a4a6fe2c045f0
+* Blog: https://blog.trendmicro.com/trendlabs-security-intelligence/coin-miner-mobile-malware-returns-hits-google-play/
 
-This malware application acts as a fake camera spying application. An ad is annoyingly pushed to the user every time the user clicks on the screen.
+This malware application aims to mine cryptocurrency. The malware schedules an alarm when the application launches or device boots up. If the battery, temperature, and CPU are below a threshold, the malware sample starts mining procedures natively.
 
 ## Signature
 ---
 
-The image of the signature can be downloaded [here](../../img/signatures/Fasurke.png) for closer inspection.
+The image of the signature can be downloaded [here](../../img/signatures/CPUMiner.png) for closer inspection.
 
-![](../../img/signatures/Fasurke.png)
+![](../../img/signatures/CPUMiner.png)
