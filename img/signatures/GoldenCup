@@ -1,0 +1,28 @@
+digraph "Graph" {
+	1 [label="EC:System:NetworkEvents:ConnectivityChange"]
+	2 [label="DR:Internet"]
+	3 [label="CC:ExternalServer:Internet"]
+	4 [label="&#916;DR:InformationStealing:User-Specific:SMS"]
+	5 [label="&#916;DR:InformationStealing:Device"]
+	6 [label="&#916;P:InformationStealing"]
+	1 -> 2 [label="" style=dotted]
+	2 -> 3 [label="" style=dotted]
+	3 -> 4 [label="  True" style=dotted]
+	4 -> 5 [label="" style=dotted]
+	5 -> 6 [label="" style=dotted]
+	2 -> 3 [label="" style=solid]
+	4 -> 6 [label="" style=solid]
+	5 -> 6 [label="" style=solid]
+	subgraph cluster_1 {
+		label="Direct, Bytecode"
+		1
+		2
+		3
+	}
+	subgraph cluster_2 {
+		label="Downloaded(Remote), Bytecode"
+		4
+		5
+		6
+	}
+}

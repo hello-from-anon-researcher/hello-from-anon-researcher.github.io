@@ -1,13 +1,13 @@
 ---
 layout: default
-title: PSWAndroidOSMyVK
+title: PSWAndroidOSMyVk
 nav_order: 2
 has_children: false
 permalink: /docs/signature/pswandroidosmyvk
 nav_exclude: true
 ---
 
-# PSWAndroidOSMyVK
+# PSWAndroidOSMyVk
 
 ## High-level Description
 
@@ -20,6 +20,6 @@ This malware sample aims to steal VK credentials from the user. The malware samp
 ## Signature
 ---
 
-The image of the signature can be downloaded [here](../../img/signatures/PSWAndroidOSMyVK.png) for closer inspection.
+The image of the signature can be downloaded [here](../../img/signatures/PSWAndroidOSMyVk.png) for closer inspection.
 
-![](../../img/signatures/PSWAndroidOSMyVK.png)
+![](../../img/signatures/PSWAndroidOSMyVk.png)

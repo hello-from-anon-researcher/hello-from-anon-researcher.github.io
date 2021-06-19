@@ -1,6 +1,7 @@
 digraph "Graph" {
 	1 [label="EC:User:ApplicationLaunch"]
 	2 [label="P:PrivilegeAbuse:DeviceAdmin"]
+	14 [label="H:IconManipulation:HideIcon"]
 	3 [label="EC:User:InstallApp"]
 	4 [label="&#916;P:AdAbuse:AggressiveAdvertisement"]
 	5 [label="EC:System:BootEvents:BootComplete"]
@@ -14,6 +15,7 @@ digraph "Graph" {
 	13 [label="P:AdAbuse:BoostWebTraffic"]
 	1 -> 2 [label="" style=dotted]
 	2 -> 3 [label="" style=dotted]
+	2 -> 14 [label="" style=dotted]
 	3 -> 4 [label="" style=dotted]
 	5 -> 6 [label="" style=dotted]
 	6 -> 7 [label="" style=dotted]
@@ -41,6 +43,7 @@ digraph "Graph" {
 		11
 		12
 		13
+		14
 	}
 	subgraph cluster_2 {
 		label="Downloaded(Remote), Bytecode"
