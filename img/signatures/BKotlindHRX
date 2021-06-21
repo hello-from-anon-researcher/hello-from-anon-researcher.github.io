@@ -33,9 +33,6 @@ digraph "Graph" {
 		7
 		8
 		9
-	}
-	subgraph cluster_2 {
-		label="Downloaded(Remote), Bytecode"
 		10
 	}
 }
