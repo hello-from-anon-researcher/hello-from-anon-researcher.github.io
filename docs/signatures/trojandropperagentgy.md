@@ -20,6 +20,6 @@ This malware sample aims to steal user information. The malware sample schedules
 ## Signature
 ---
 
-The image of the signature can be downloaded [here](../../img/signatures/TrojanAgentDropperGY.png) for closer inspection.
+The image of the signature can be downloaded [here](../../img/signatures/TrojanDropperAgentGY.png) for closer inspection.
 
-![](../../img/signatures/TrojanAgentDropperGY.png)
+![](../../img/signatures/TrojanDropperAgentGY.png)
