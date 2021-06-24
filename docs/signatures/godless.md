@@ -15,7 +15,7 @@ nav_exclude: true
 * File Hash (SHA-256): c39631acba32af58ef310b69146e90f345cdda29c346cb1c0bd4746e1a5479e7
 * Blog: https://blog.trendmicro.com/trendlabs-security-intelligence/godless-mobile-malware-uses-multiple-exploits-root-devices/
 
-This malware sample aims to perform root exploits and perform an additional unknown payload. The malware sample runs native asset files to perform root exploits. It then installs an executable based on commands sent from the malware developers server. Lastly, the malware sample performs an unknown payload. 
+This malware sample aims to perform privilege abuse and perform an additional unknown payload. The malware sample runs native asset files to perform privilege abuse. It then installs an executable based on commands sent from the malware developers server. Lastly, the malware sample performs an unknown payload. 
 
 ## Signature
 ---
