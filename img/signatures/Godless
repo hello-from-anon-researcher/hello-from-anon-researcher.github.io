@@ -1,6 +1,6 @@
 digraph "Graph" {
 	1 [label="EC:System:DeviceStatus:ScreenOff"]
-	2 [label="P:PrivilegeAbuse:RootExploit"]
+	2 [label="P:PrivilegeAbuse"]
 	3 [label="DR:Internet"]
 	4 [label="CC:ExternalServer:Internet"]
 	5 [label="P:Unknown"]
