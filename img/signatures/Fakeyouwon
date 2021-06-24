@@ -4,7 +4,7 @@ digraph "Graph" {
 	3 [label="EC:System:PackageEvents:PackageRemoved"]
 	4 [label="DR:Internet"]
 	5 [label="CC:ExternalServer:Internet"]
-	6 [label="P:AdAbuse:Ad-ClickFraud"]
+	6 [label="&#916;P:AdAbuse:Ad-ClickFraud"]
 	1 -> 4 [label="" style=dotted]
 	2 -> 4 [label="" style=dotted]
 	3 -> 4 [label="" style=dotted]

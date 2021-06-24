@@ -8,7 +8,7 @@ digraph "Graph" {
 	7 [label="CC:Device:SoftwareSpec:AndroidVersion"]
 	8 [label="CC:Environment:Network"]
 	9 [label="H:IconManipulation:HideIcon"]
-	10 [label="DR:InformationStealing:User-Specific:Location"]
+	10 [label="DR:Internet"]
 	11 [label="P:InformationStealing:User-Specific:Location"]
 	12 [label="DR:Internet"]
 	13 [label="CC:ExternalServer:Internet"]

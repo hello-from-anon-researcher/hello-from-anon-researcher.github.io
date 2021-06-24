@@ -3,6 +3,9 @@ digraph "Graph" {
 	2 [label="EC:System:BootEvents:QuickbootPoweron"]
 	3 [label="EC:System:DeviceStatus:UserPresent"]
 	4 [label="EC:User:ApplicationLaunch"]
+	20 [label="DR:InformationStealing:Device"]
+	21 [label="DR:InformationStealing:User-Specific:Location"]
+	22 [label="P:InformationStealing"]
 	5 [label="DR:Device:SoftwareSpec:AndroidVersion"]
 	6 [label="CC:Device:SoftwareSpec:AndroidVersion"]
 	7 [label="DR:Device:SoftwareSpec:AndroidVersion"]
@@ -21,7 +24,6 @@ digraph "Graph" {
 	1 -> 5 [label="" style=dotted]
 	2 -> 5 [label="" style=dotted]
 	5 -> 6 [label="" style=dotted]
-	5 -> 6 [label="" style=solid]
 	6 -> 13 [label="  True" style=dotted]
 	13 -> 14 [label="" style=dotted]
 	13 -> 14 [label="" style=solid]
@@ -36,12 +38,16 @@ digraph "Graph" {
 	18 -> 12 [label="  True" style=dotted]
 	12 -> 19 [label="" style=dotted]
 	15 -> 9 [label="" style=dotted]
-	4 -> 10 [label="" style=dotted]
+	4 -> 20 [label="" style=dotted]
+	20 -> 21 [label="" style=dotted]
+	20 -> 22 [label="" style=solid]
+	21 -> 22 [label="" style=solid]
+	21 -> 22 [label="" style=dotted]
+	22 -> 10 [label="" style=dotted]
 	10 -> 11 [label="" style=dotted]
 	11 -> 13 [label="  True" style=dotted]
 	10 -> 11 [label="" style=solid]
 	10 -> 12 [label="" style=solid]
-	13 -> 14 [label="" style=solid]
 	5 -> 6 [label="" style=solid]
 	7 -> 8 [label="" style=solid]
 	17 -> 18 [label="" style=solid]
@@ -66,5 +72,8 @@ digraph "Graph" {
 		17
 		18
 		19
+		20
+		21
+		22
 	}
 }

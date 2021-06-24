@@ -4,7 +4,7 @@ digraph "Graph" {
 	3 [label="EC:User:SensitiveInput"]
 	4 [label="EC:User:ButtonClick"]
 	5 [label="DR:InformationStealing:User-Specific:Account:Banking"]
-	6 [label="P:CryptocurrencyMining"]
+	6 [label="P:InformationStealing:User-Specific:Account:Banking"]
 	1 -> 2 [label="" style=dotted]
 	2 -> 3 [label="" style=dotted]
 	3 -> 4 [label="" style=dotted]

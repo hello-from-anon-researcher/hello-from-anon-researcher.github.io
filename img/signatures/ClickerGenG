@@ -5,7 +5,7 @@ digraph "Graph" {
 	4 [label="CC:Environment:Time"]
 	5 [label="CC:Device:Network"]
 	6 [label="EC:User:ButtonClick"]
-	7 [label="P:Unknown"]
+	7 [label="&#916;P:Unknown"]
 	1 -> 2 [label="" style=dotted]
 	2 -> 3 [label="" style=dotted]
 	3 -> 4 [label="" style=dotted]

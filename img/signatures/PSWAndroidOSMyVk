@@ -3,7 +3,7 @@ digraph "Graph" {
 	2 [label="DR:Environment:Location"]
 	3 [label="CC:Environment:Location"]
 	4 [label="EC:User:SensitiveInput"]
-	5 [label="CC:User:ButtonClick"]
+	5 [label="EC:User:ButtonClick"]
 	6 [label="DR:InformationStealing:User-Specific:Account:Social"]
 	7 [label="P:InformationStealing:User-Specific:Account:Social"]
 	1 -> 2 [label="" style=dotted]
