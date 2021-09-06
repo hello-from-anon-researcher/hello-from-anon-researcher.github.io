@@ -34,6 +34,7 @@ The software engineering conferences/journals include:
 8. Journals of Systems and Software
 9. Information and Software Technology
 10. ACM Transactions on Software Engineering and Methodology
+11. Mining Software Repositories
 
 The security conferences/journals include:
 
@@ -47,6 +48,7 @@ The security conferences/journals include:
 8. International Journal of Information Security Science 
 9. International Journal of Information Security
 10. IEEE Security & Privacy
+11. Annual Computer Security Applications Conference
 
 ---
 
@@ -60,13 +62,14 @@ These categories include:
 
 1. Not Malware Detection - Papers irrelevant to malware detection
 2. Generic Malware - Papers aimed to detect malware by learning features from a large set of benign and malicious applications.
-3. Forced Execution - Papers aimed to force app execution into the malicious path
+3. Payload Specific - Papers aimed to targeting a specific type of payload (ex., info-leak, overlay phishing, privilege escalation)
 4. Condition Detection - Papers aimed at focusing on conditions that lead to the malicious payload
-5. Hiding Detection - Papers aimed at flagging the difference between app behavior and its presented user interface
-6. Payloads - Papers aimed to targeting a specific type of payload (ex., info-leak, overlay phishing, privilege escalation)
-7. Repackaged Malware - Papers aimed at detecting repackaged apps
-8. Inter App Attacks - Papers aimed at detecting apps that collude together to perform an attack
-9. Dynamic Loading - Papers aimed at detecting dynamic code loading
+5. Forced Execution - Papers aimed to force app execution into the malicious path
+6. Hiding Detection - Papers aimed at flagging the difference between app behavior and its presented user interface
+7. Dynamic Loading - Papers aimed at detecting dynamic code loading
+8. Sandboxing - Papers aimed at creating analysis frameworks to aid researchers in analyzing malware samples
+9. Repackaged Malware - Papers aimed at detecting repackaged apps
+10. Inter App Attacks - Papers aimed at detecting apps that collude together to perform an attack
 
 Details of the papers within each category can be found within this [excel file](../../../assets/data/excelsheets/Tools.xlsx).
 
