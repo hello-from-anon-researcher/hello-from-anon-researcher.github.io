@@ -15,7 +15,7 @@ nav_exclude: true
 * File Hash (SHA-256): 63e8ef385b20f68d19a38c0678d85bdcf50db70bb13f300512ba3322499df935
 * Blog: https://nakedsecurity.sophos.com/2017/07/27/dont-want-your-smss-stolen-dont-download-these-android-apps/
 
-This malware sample aims to download a payload which performs information stealing. The malware sample retrieves an executable after waiting a certain period of time and retrieving commands from the C&C server. It then aims to steal SMS messages from the user.
+This malware sample aims to download a payload which performs information stealing. The malware sample retrieves an executable after waiting a certain period of time and retrieving commands from the C&C server. It then aims to steal SMS messages from the user (an observed behavior, as the server to retrieve the payload was down).
 
 ## Signature
 ---
