@@ -15,7 +15,7 @@ nav_exclude: true
 * File Hash (SHA-256): e71dc11e8609f6fd84b7af78486b05a6f7a2c75ed49a46026e463e9f86877801
 * Blog: https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/malbus-popular-south-korean-bus-app-series-in-google-play-found-dropping-malware-after-5-years-of-development/
 
-This malware application aims to steal social accounts form the user. The sample retrieves commands and an executable from the malware developers server. The payload executes phishing forms (an observed behavior) to steal social accounts from the user.
+This malware application aims to steal social accounts form the user. The sample retrieves commands and an executable from the malware developers server. The payload executes phishing forms (an observed behavior, as the server to download the executable was down) to steal social accounts from the user.
 
 ## Signature
 ---
