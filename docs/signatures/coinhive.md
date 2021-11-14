@@ -1,4 +1,4 @@
-W---
+---
 layout: default
 title: CoinHive
 nav_order: 2
