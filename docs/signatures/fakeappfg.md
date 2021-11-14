@@ -15,7 +15,7 @@ nav_exclude: true
 * File Hash (SHA-256): 779f7caff09f9d96e298a50b9157148b43448a40a843e99a917645d2a9ce03cc
 * Blog: https://www.welivesecurity.com/2017/03/23/download-minecraft-mods-google-play-read/
 
-This malware application immediately opens a scam link on launching the application. User-specific information is leaked as a result.
+This malware application immediately opens a scam link on launching the application (an observed behavior, as the scam site was down). User-specific information is leaked as a result.
 
 ## Signature
 ---
