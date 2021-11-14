@@ -15,7 +15,7 @@ nav_exclude: true
 * File Hash (SHA-256): 6265678c9de6987389ee9936a893fc98c90e8e468cc7f0b7c8b1128aa7cb4e88
 * Blog: https://www.welivesecurity.com/2018/12/11/android-trojan-steals-money-paypal-accounts-2fa/
 
-This malware sample aims to steal various account credentials and banking information from the user. The malware sample creates multiple tasks after the user grants accessibility permissions. Two tasks retrieve commands from the malware developers server to collect: (1) phishing website links, and (2) commands to enable phishing. It then can phish for credentials and account balance for four brazilian banks. In addition to the four banks, it also aims to steal account credentials to popular entertainment and social websites.
+This malware sample aims to steal various account credentials and banking information from the user. The malware sample creates multiple tasks after the user grants accessibility permissions. Two tasks retrieve commands from the malware developers server to collect: (1) phishing website links (an observed behavior, as the phishing site was down), and (2) commands to enable phishing. It then can phish for credentials and account balance for four brazilian banks. In addition to the four banks, it also aims to steal account credentials to popular entertainment and social websites (an observed behavior, as the phishing site was down).
 
 ## Signature
 ---
