@@ -12,10 +12,9 @@ nav_exclude: true
 ## High-level Description
 
 * Year: 2016
-* File Hash (SHA-256): 3c0a9db3f1df04e23c5b8bd711402570a370474853df2541ef187b9997721bc3
 * Blog: https://securelist.com/the-evolution-of-acecard/73777/
 
-This malware sample receives SMS commands from the malware developers server to enable the interception of messages, collect SMS messages, create calls to premium numbers, and leak user-specific information (i.e., Device information, Phone Number, Installed Apps). It also contains the ability to perform privilege abuse by requesting device admin permissions and hiding the icon on launching the application.
+This malware attempts to perform a series of information stealing or premium charge payloads depending on commands from received as SMS messages. On application launch and system events (external applications available, boot complete), it first leaks the phone number of the device to the malware developer. It then attempts to grant device admin privileges to prevent uninstallation, and registers a content observer to leak SMS messages sent by the user on command. To retrieve the commands, it listens on SMS received system events. If a command is found, it can set flags used to control the malicious behaviors of the app, perform premium charges (via sms or call), or leak device and user-specific information. It should be noted that when a command is sent to the device, it is intercepted and hidden from the user to avoid suspicion.
 
 ## Signature
 ---

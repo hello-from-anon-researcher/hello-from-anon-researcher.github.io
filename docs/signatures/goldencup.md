@@ -12,7 +12,6 @@ nav_exclude: true
 ## High-level Description
 
 * Year: 2018
-* File Hash (SHA-256): 67b1a1e7b505ac510322b9d4f4fc1e8a569d6d644582b588faccfeeaa4922cb7
 * Blog: https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/google-play-users-risk-a-yellow-card-with-android-foulgoal-a/
 
 This malware sample aims to steal information from the user. It first retrieves commands and an executable from the malware developer's server. The executable then sends SMS and device information to the malware developer's server (an observed behavior, as the server to retrieve the executable was down).

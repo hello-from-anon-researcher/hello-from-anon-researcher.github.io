@@ -12,10 +12,9 @@ nav_exclude: true
 ## High-level Description
 
 * Year: 2018
-* File Hash (SHA-256): bec2b94ea7d0baa970884da8e00d1366df8b0ccb51b354aca8203e2160d07d4c
 * Blog: https://www.symantec.com/blogs/threat-intelligence/hidden-app-malware-google-play
 
-This malware sample aims to perform ad abuse payloads. On launch of the application, the malware sample directly requests device admin privileges, and opens up Google Play Store in hopes that the user installs a secondary malware app. The secondary malware app pushes full screen advertisements to the user (an observed behavior, as the app could no longer be found). On boot complete, the malware sample checks that the app meets a specific Android version and contains a minimum number of CPU cores. It then opens an invisible website to perform web traffic boosting based on a hard coded list of ad URLs.
+This malware application attempts to install an additional payload that performs ad abuse (disruptive ads). Upon launching the application, it opens Google Play Store hoping the user will install another application and hides itself. It also listens on connectivity change events to start a service. This service opens up web pages if: (1) user-specific apps are not installed, and (2) the phone has a set number of CPU cores. It will then load a webview in the background hidden to the user (as it is in a service). Depending on the number of CPU cores, it will load different websites to perform ad abuse payloads (hidden ads).
 
 ## Signature
 ---

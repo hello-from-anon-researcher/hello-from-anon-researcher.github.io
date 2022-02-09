@@ -12,7 +12,6 @@ nav_exclude: true
 ## High-level Description
 
 * Year: 2017
-* File Hash (SHA-256): f14e56accc05f44566f1c2936bf56cf6e1e1d01624bd91563e22cff30dbc195f 
 * Blog: https://securelist.com/expensive-free-apps/77083/
 
 This malware sample aims to perform premium charges via SMS. The malware contacts it's C&C server initially to ensure the server is up. It then checks to make sure the network operator matches a certain string (ex., "RANG"). 
