@@ -12,7 +12,6 @@ nav_exclude: true
 ## High-level Description
 
 * Year: 2017
-* File Hash (SHA-256): 3bd7b3263ba89be9e64fc1ef786bb302240dbdd0378916aefa362390fc0a15a5
 * Blog: https://www.welivesecurity.com/2017/02/22/sunny-chance-stolen-credentials-malicious-weather-app-found-google-play/
 
 This malware sample contains a wide variety of malicious abilities: it phishes banking credentials, performs ad abuse through notifications, intercepts SMS, and performs privilege abuse. the ability to phish banking credentials based on Brazilian banks. The malware schedules an alarm on a variety of system-wide events (Power Disconnected, Power Connected, Battery Okay, Battery Low, New Outgoing Call, Phone State Change, Package Removed, Package Added, User Present, Quickboot Poweron, Boot Complete, SMS Received). 
