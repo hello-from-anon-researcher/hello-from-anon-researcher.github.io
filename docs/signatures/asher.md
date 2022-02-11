@@ -18,6 +18,6 @@ This malware application aims to perform aggressive advertisement payloads. The 
 ## Signature
 ---
 
-The image of the signature can be downloaded [here](../../img/signatures/Asher.png) for closer inspection.
+The image of the signature can be downloaded [here](../../img/signatures/Ashas.png) for closer inspection.
 
 ![](../../img/signatures/Asher.png)
