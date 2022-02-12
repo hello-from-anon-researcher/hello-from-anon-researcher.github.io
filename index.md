@@ -13,8 +13,7 @@ Due to the rising popularity of smart phones, malware in the Android field has b
 
 ## Publication
 
-[Rotten Apples Spoil the Bunch: An Anatomy of Google Play Malware]() 
-[<bibtex>](/assets/data/googleplaymalware.bib)
+[Rotten Apples Spoil the Bunch: An Anatomy of Google Play Malware]() [(bibtex)](/assets/data/googleplaymalware.bib)
 
 ---
 
