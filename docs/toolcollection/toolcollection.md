@@ -14,31 +14,29 @@ We systematically collected a list of malware detection papers by searching top 
 
 The software engineering conferences/journals include:
 
-1. International Conference on Software Engineering
-2. Foundations of Software Engineering
-3. Automated Software Engineering
-4. International Symposium on Software Testing and Analysis
-5. IEEE Transaction of Software Engineering
-6. Empirical Software Engineering
-7. IEEE Software
-8. Journals of Systems and Software
-9. Information and Software Technology
-10. ACM Transactions on Software Engineering and Methodology
-11. Mining Software Repositories
+1. International Conference on Automated Software Engineering (ASE)
+2. Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)
+3. International Conference on Software Engineering (ICSE)
+4. International Symposium on Software Testing and Analysis (ISSTA)
+5. Empirical Software Engineering (EMSE)
+6. IEEE Software
+7. Information and Software Technology (IST)
+8. Journal of Systems and Software (JSS)
+9. Transactions on Software Engineering (TSE)
+10. Transactions on Software Engineering and Methodology (TOSEM)
 
 The security conferences/journals include:
 
-1. ACM Conference on Computer and Communications Security
-2. IEEE Symposium on Security and Privacy
-3. The Network and Distributed System Security
-4. USENIX Security
-5. IEEE Transactions on Information Forensics and Security
-6. IEEE Transactions on Dependable and Secure Computing
-7. Computers & Security 
-8. International Journal of Information Security Science 
-9. International Journal of Information Security
-10. IEEE Security & Privacy
-11. Annual Computer Security Applications Conference
+1. Conference on Computer and Communications Security (CCS)
+2. Symposium on Security and Privacy (S&P)
+3. Network and Distributed System Security Symposium (NDSS)
+4. USENIX Security Symposium
+5. Transactions on Information Forensics and Security (TIFS)
+6. Transactions on Dependable and Secure Computing (TDSC)
+7. Journal of Computers & Security
+8. International Journal of Information Security (IJIS)
+9. Security & Privacy Journal
+10. Annual Computer Security Applications Conference (ACSAC)
 
 We further augmented the resulting list with malware detection techniques from seven recent surveys:
 
