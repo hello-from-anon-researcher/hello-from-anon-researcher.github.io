@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2018
 * Blog: https://www.welivesecurity.com/2018/04/05/google-play-ad-slingers/
 
-This malware sample acts as a fake antivirus. Every time the user presses a "scan" button, ads are annoyingly displayed to the user.
+This malware sample acts as a fake antivirus. Every time the user interacts with fake functionality of the application (e.g., a "scan" button), ads are annoyingly displayed to the user.
 
 ## Signature
 ---

@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2018
 * Blog: https://www.symantec.com/blogs/threat-intelligence/apps-containing-aggressive-adware-found-google-play
 
-This malware sample acts as a tutorial slider application, containing 7 slides in total. The sample loads ads on every click the user performs.
+This malware sample acts as a tutorial slider application. The sample disruptively pushes ads on every click the user performs throughout the application.
 
 ## Signature
 ---
