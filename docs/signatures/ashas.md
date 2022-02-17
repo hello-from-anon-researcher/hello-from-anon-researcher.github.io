@@ -13,7 +13,7 @@ nav_exclude: true
 * Year: 2019
 * Blog: https://www.welivesecurity.com/2019/10/24/tracking-down-developer-android-adware/
 
-This malware application aims to perform aggressive advertisement payloads. The malware retrieves ad configuration from the C&C server on launching the application. The malware also checks the ip of the device to ensure the device is not under a Google domain. If the Android SDK is above a certain version, the malware sample registers an alarm receiver and broadcast receiver to trigger when the user unlocks the device. It is important to note that the broadcast receiver is also triggered on boot complete, quickboot power on, and user present events. The malware sample pushes an ad to the user if a set time has passed since the last displayed ad.
+This malware application aims to perform push ads disruptively to the user. The malware leaks device information and retrieves ad configuration from the C&C server on launching the application. The malware also checks the ip of the device to ensure the device is not under a Google domain. On various system events (boot complete and quickboot power on) the malware schedules the routine to perform ad abuse. This routine is also run when the device is unlocked (user present). It then performs a series of checks based on the android version, time, and configuration from the server, before pushing ads disruptively to the user. In addition, it performs a probability roll to check whether the app should perform ad click fraud on top the disruptive ad.
 
 ## Signature
 ---
