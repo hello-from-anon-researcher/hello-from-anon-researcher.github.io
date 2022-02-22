@@ -13,7 +13,7 @@ Due to the rising popularity of smart phones, malware in the Android field has b
 
 ## Publication
 
-Michael Cao, Khaled Ahmed, and Julia Rubin. "Rotten Apples Spoil the Bunch: An Anatomy of Google Play Malware." In Proceedings of the 44th IEEE/ACM International Conference on Software Engineering (ICSE), 2022. \[[pdf](), [bibtex](/assets/data/googleplaymalware.bib)\]
+Michael Cao, Khaled Ahmed, and Julia Rubin. "Rotten Apples Spoil the Bunch: An Anatomy of Google Play Malware." In Proceedings of the 44th IEEE/ACM International Conference on Software Engineering (ICSE), 2022. \[[pdf](https://people.ece.ubc.ca/mjulia/publications/GooglePlayMalware_2022.pdf), [bibtex](/assets/data/googleplaymalware.bib)\]
 
 ---
 
