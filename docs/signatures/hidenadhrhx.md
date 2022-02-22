@@ -19,6 +19,6 @@ This malware application aims to aggressively push full screen ads to the user. 
 ## Signature
 ---
 
-The image of the signature can be downloaded [here](../../img/signatures/HidenAdHRHX.png) for closer inspection.
+The image of the signature can be downloaded [here](../../img/signatures/HiddenAdHRXH.png) for closer inspection.
 
-![](../../img/signatures/HidenAdHRHX.png)
+![](../../img/signatures/HiddenAdHRXH.png)
