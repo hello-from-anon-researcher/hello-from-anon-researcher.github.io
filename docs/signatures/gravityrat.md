@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2020
 * Blog: https://securelist.com/gravityrat-the-spy-returns/99097/
 
-This malware sample aims to leak information of the user. It listens on a wide variety of system-wide events (boot complete, reboot, screen on/off, user unlocked, airplane mode, battery low/okay, power connect/disconnect) and periodically checks whether the network is available. It then collects SMS, contacts, call logs, and device information and leaks it to the malware developers server.
+This malware sample aims to leak information of the user. It listens on application launch and a wide variety of system type events including categories: battery, network, device status, and boot. Once triggered, the malware periodically checks whether the network is available. It then collects SMS, contacts, call history, and device information and leaks each source to the malware developers server.
 
 ## Signature
 ---

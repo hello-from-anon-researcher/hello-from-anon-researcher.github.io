@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2017
 * Blog: https://blog.trendmicro.com/trendlabs-security-intelligence/coin-miner-mobile-malware-returns-hits-google-play/
 
-This malware application aims to mine cryptocurrency. The malware schedules an alarm when the application launches or device boots up. If the battery, temperature, and CPU are below a threshold, the malware sample starts mining procedures natively.
+This malware application aims to mine cryptocurrency. The malware schedules an alarm when the application launches, device boots up, or upon a developer defined event. If the battery, temperature, and CPU are below a threshold, the malware sample starts mining procedures natively.
 
 ## Signature
 ---

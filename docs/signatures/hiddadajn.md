@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2020
 * Blog: https://www.welivesecurity.com/2020/05/11/breaking-news-app-promises-news-brings-ddos-attacks/
 
-This malware sample aims to perform a variety of ad abuse payloads. The malware schedules an alarm on boot complete to contact the malware developers server. Upon receiving commands, the malware can: (1) hide the app icon, (2) load a local web file to perform ad click fraud, (3) open a URL to perform web traffic boosting, and (4) push full screen ads to the user.
+This malware sample aims to perform a variety of ad abuse payloads. The malware schedules an alarm on boot system events and application launch to steal device information and contact the malware developers server. Upon receiving commands, the malware can disruptively push ads to the user, hide the app icon, and load a local web file that retrieves a remote payload to perform hidden ads (an observed behavior, as the server was down at time of analysis).
 
 ## Signature
 ---

@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2017
 * Blog: https://blog.checkpoint.com/2017/04/24/falaseguide-misleads-users-googleplay/
 
-This malware sample aims to perform privilege abuse, and run an unknown payload. Device admin privileges are requested upon launching the application. The app further retrieves commands from Firebase messaging services to download a payload. It then runs the payload on boot complete or after receiving the message.
+This malware sample aims to perform privilege abuse, and run an unknown payload. Device admin privileges are requested upon launching the application to increase difficulty of uninstallation. The app further retrieves commands from Firebase messaging services to download a payload. It then runs the payload on boot complete or after receiving the message.
 
 ## Signature
 ---

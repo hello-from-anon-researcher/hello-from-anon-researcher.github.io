@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2016
 * Blog: https://www.welivesecurity.com/2016/07/15/pokemon-go-hype-first-lockscreen-tries-catch-trend/
 
-This malware application aims to open up web pages based on local configuration. The browser displays random websites, aiming to perform web traffic boosting.
+This malware application aims to open up web pages based on local configuration. The browser displays random websites, aiming to display ads disruptively to the user in a web browser.
 
 ## Signature
 ---

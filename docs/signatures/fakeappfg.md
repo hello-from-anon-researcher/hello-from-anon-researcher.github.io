@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2017
 * Blog: https://www.welivesecurity.com/2017/03/23/download-minecraft-mods-google-play-read/
 
-This malware application immediately opens a scam link on launching the application (an observed behavior, as the scam site was down). User-specific information is leaked as a result.
+This malware application immediately opens a scam link on launching the application. Once the user clicks on a button when launching the app, the malware opens a link that displays advertisements for products from North America. It should be noted that it is possible the link redirects to other scam sites depending on the region of the user.
 
 ## Signature
 ---

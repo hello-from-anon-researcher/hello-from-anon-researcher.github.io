@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2018
 * Blog: https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/google-play-users-risk-a-yellow-card-with-android-foulgoal-a/
 
-This malware sample aims to steal information from the user. It first retrieves commands and an executable from the malware developer's server. The executable then sends SMS and device information to the malware developer's server (an observed behavior, as the server to retrieve the executable was down).
+This malware sample aims to steal information from the user. It first retrieves commands and an executable from the malware developer's server. The malware then attempts to get the user to install the application. Once installed, the malware sends SMS and device information to the malware developer's server (an observed behavior, as the server to retrieve the executable was down).
 
 ## Signature
 ---

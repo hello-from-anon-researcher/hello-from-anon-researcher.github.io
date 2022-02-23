@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2018
 * Blog: https://www.welivesecurity.com/2018/02/28/cryptocurrency-scams-android/
 
-This malware application acts as a fake ripple miner. Ads are continually pushed to the user based on button interactions based on the user.
+This malware application acts as a fake ripple miner. After clicking through a series of tutorial slides and a fake login page, ads are continually pushed to the user disruptively.
 
 ## Signature
 ---

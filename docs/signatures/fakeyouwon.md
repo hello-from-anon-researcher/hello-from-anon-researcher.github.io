@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2019
 * Blog: https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/unofficial-telegram-app-malicious-sites
 
-This malware sample aims to perform ad-click fraud. The malware sample retrieves commands and a malicious executable on package events (Package Removed, Package Added) and boot events (Boot Complete). The malware sample then opens a webview and performs fraudulent clicks for ad revenue (an observed behavior, as server was down). 
+This malware sample aims to perform ad-click fraud. The malware sample creates three threads that are triggered on package events (Package Removed, Package Added) and boot events (Boot Complete). In each thread, the malware contacts the malware developers server to retrieve ad configuration. It then opens a webview and performs clicks for ad revenue (an observed behavior, as server was down at time of analysis). 
 
 ## Signature
 ---

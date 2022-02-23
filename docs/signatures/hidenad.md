@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2019
 * Blog: https://blog.trendmicro.com/trendlabs-security-intelligence/adware-disguised-as-game-tv-remote-control-apps-infect-9-million-google-play-users/
 
-This malware application aims to push full screen ads to the user. The sample retrieves commands and ad configuration from the malware developers server. It then pushes full screen ads to the user when the screen is on and a certain time period (since the last ad was shown) has past. This sample also contains the capability of hiding its icon after the user interacts with the sample by pressing a button on the screen after application launch.
+This malware application aims to disruptively push ads to the user. On application launch, the malware retrieves configuration from the internet. The application acts as a tv streaming application with six buttons to view "channels". Once the user selects a channel, the application hides the app icon. Additionally, the malware checks the app version before periodically checking time to retrieve ad configuration from the internet. This behavior also occurs on boot system events. The malware then checks the screen status before pushing ads disruptively to the server.
 
 ## Signature
 ---
