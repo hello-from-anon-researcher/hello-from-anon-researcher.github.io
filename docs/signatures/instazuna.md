@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2017
 * Blog: https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/turkish-instagram-password-stealers-found-google-play/
 
-This malware application aims to steal instagram credentials from the user. Upon launch of the application, the app launches a remote website. Once the user selects the login button on the website and inputs their credentials, the app leaks their instagram credentials to the malware developer (an observed behavior, as the phishing site was down).
+This malware application aims to steal instagram credentials from the user. Upon launch of the application, the app launches a local website that contains three links. All three links lead to fake login pages. Once the user clicks on the link, performs a sensitive input, and clicks a button to login, the credentials are sent to the malware developer as a result.
 
 ## Signature
 ---

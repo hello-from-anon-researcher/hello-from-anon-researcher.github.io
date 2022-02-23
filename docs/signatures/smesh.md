@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2016
 * Blog: https://blog.trendmicro.com/trendlabs-security-intelligence/operation-c-major-actors-also-used-android-blackberry-mobile-spyware-targets/
 
-This malware acts as a chatting application. The "admin" user of the app sends messages to the user which activate data leakage of the users call history, sms, location, and call audio. 
+This malware acts as a chatting application. On application launch, the user goes through a registration process. Afterwards, it creates a persistent connection with the malware developers server. Upon receiving messages from the "admin" user, the app retrieves call history information, dynamically registers a variety of system events to retrieve sms information, phone numbers, and schedules a routine to leak the information along with device and location data. The malware also dynamically registers call status system events to record call audio and leaks it to the malware developers server depending on commands from the server.
 
 ## Signature
 ---

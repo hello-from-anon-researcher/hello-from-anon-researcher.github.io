@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2019
 * Blog: https://research.checkpoint.com/2019/simbad-a-rogue-adware-campaign-on-google-play/
 
-This malware aims to perform ad abuse payloads. The malware retrieves commands based on Parse push notifications which can: (1) hide the app icon and push full screen ads (requires settings to enable ads based on another command), (2) enable pushing full screen ads to the user, (3) display web pages to the user, (4) launch the app store to install additional apps with unknown payloads.
+This malware aims to perform ad abuse payloads. The malware retrieves commands based on Parse push notifications which can: (1) hide the app icon and disruptively push ads to the user (requires commands retrieved in another path to enable ads), (2) retrieve commands from the malware developers server, (3) entice the user to download and install additional unknown payloads, (4) open a web phishing page (an observed behavior, as the server was down at time of analysis).
 
 ## Signature
 ---

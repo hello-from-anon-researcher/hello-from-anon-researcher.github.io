@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2018
 * Blog: https://research.checkpoint.com/2018/malicious-flashlight-apps-google-play/
 
-This malware application aims to push full screen ads. It listens to call events (new outgoing call, phone state change), and displays ads upon the phone hanging up. The malware further contains capabilities to hide the icon based on (1) the device (must not be a xiaomi, huawei, vivo, or oppo phone), and (2) configuration from the server.
+This malware application aims to push full screen ads. The malware retrieves configuration from the internet on application launch. It then checks that the device is of a certain manufacturer (must not be xiaomi, huawei, vivo, or oppo phone) and commands from the server before hiding the app icon. The malware collects additional configuration from the server after a set period of time. On call events (new outgoing call, phone state change), the malware checks whether a call was hung up and attempts to push ads disruptively to the user depending on commands from application launch.
 
 ## Signature
 ---

@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2017
 * Blog: https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/
 
-This malware application aims to steal instagram social account information from the user. A fake web phishing page is shown to the user on application launch. The malware developer steals the users instagram credentials when the user attempts to login (an observed behavior, as the phishing site was down).
+This malware application aims to steal instagram social account information from the user. A fake web phishing page is shown to the user on application launch. The malware developer steals the users instagram credentials when the user attempts to login (an observed behavior, as the phishing site was down at time of analysis).
 
 ## Signature
 ---

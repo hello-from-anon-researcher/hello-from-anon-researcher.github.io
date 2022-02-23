@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2017
 * Blog: https://www.symantec.com/connect/blogs/android-malware-google-play-adds-devices-botnet-and-performs-ddos-attacks
 
-This malware sample aims to perform web traffic boosting. It retrieves ad configuration from the malware developers server on device boot when network is available. The malware sample then aims to connect to an ad server to perform ad requests (an observed behavior, as the server was down).
+This malware sample aims to perform port forwarding and hidden ads. The malware activates on application launch or boot system events. It first checks network connectivity before retrieving commands from the server to enable a port using SOCKS protocols. Based on data sent from the malware developer server, it contains capabilities of loading network traffic to perform hidden ads or act as a relay to steal data from the internal network (both observed behaviors, as the server was down at time of analysis).
 
 ## Signature
 ---

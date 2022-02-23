@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2016
 * Blog: https://blog.malwarebytes.com/cybercrime/2016/06/trojan-clickers-gaze-cast-upon-google-play-store/
 
-This malware sample aims to perform ad-click fraud. It schedules a repeating task on network related events (Wifi State Change, Connectivity Change). It then retrieves ad configuration and commands from the malware developer's server to perform ad-click fraud (an observed behavior, as the server was down). This malware sample also contains the ability to hide it's app icon on application launch based on a button click from the user.
+This malware sample aims to perform ad-click fraud. It schedules a repeating task on network system events or application launch. The malware then retrieves ad configuration and commands from the malware developer's server to perform ad-click fraud (an observed behavior, as the server was down at time of analysis). This malware sample also contains the ability to hide it's app icon on application launch based on a button click from the user.
 
 ## Signature
 ---

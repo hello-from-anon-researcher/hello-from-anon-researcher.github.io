@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2018
 * Blog: https://blog.trendmicro.com/trendlabs-security-intelligence/apps-disguised-security-tools-bombard-users-ads-track-users-location/
 
-This malware sample contains the ability to push full screen ads to the user. It also contains the ability to steal device or user information. The malware sample collects device and user-specific information on boot events (Boot Complete), package events (Install Referrer), network events (Connectivity Change), and by scheduling a repeating alarm. It also registers a broadcast receiver that pushes full screen ads when the device unlocks or screen turns on. Lastly, it hides it's icon on application launch after checking for sandbox environments and a set period of time passes.
+This malware sample contains the ability to push ads disruptively to the user. On application launch, the malware dynamically registers device status events to push ads disruptively to the user. The malware also dynamically registers network status system events that check whether the device has network connectivity. Upon a valid network connection, the malware leaks device and user-specific information. It then checks sandboxing indicators and that a set amount of time has past before hiding the app icon.
 
 ## Signature
 ---

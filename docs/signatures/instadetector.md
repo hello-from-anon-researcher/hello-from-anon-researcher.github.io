@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2016
 * Blog: https://www.pandasecurity.com/mediacenter/social-media/we-know-whos-viewed-your-instagram-and-its-not-who-you-think/, https://securelist.com/who-viewed-you-instagram-account-and-who-stole-your-password/74260/
 
-This malware application aims to steal instagram credentials. The user presses a begin button upon launch and a WebView is opened as a result with a fake instagram login page (the site was still up at analysis time). Credentials are stolen once the user inputs the sensitive data and presses the login button.
+This malware application aims to steal instagram credentials. On application launch, the malware retrieves location information. Once the user presses the begin button, an ad is disruptively pushed to the user before leaking the location information and opening a phishing page within a WebView. The phishing page contains a login form where the user performs a sensitive input and clicks a button to "log in", leaking the credentials as a result.
 
 ## Signature
 ---

@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2017
 * Blog: https://securelist.com/ztorg-from-rooting-to-sms/78775/
 
-This malware sample perform premium charges or web traffic boosting. The malware sample schedules a repeating task on application launch. This task performs two tasks. The first task retrieves commands from the malware developer's server to perform premium charges, or open web pages to perform web traffic boosting. The second task triggers when the user receives an SMS message. It then can block incoming SMS messages depending on the command sent from the first task.
+This malware sample perform premium charges or web traffic boosting. The malware sample schedules a repeating task on application launch. This task performs two tasks. The first task leaks device information and retrieves commands from the malware developer's server to perform premium charges, or open web pages to perform web traffic boosting. The second task triggers when the user receives an SMS message. It then can block incoming SMS messages depending on the command sent from the first task.
 
 ## Signature
 ---

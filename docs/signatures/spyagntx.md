@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2017
 * Blog: https://nakedsecurity.sophos.com/2017/07/27/dont-want-your-smss-stolen-dont-download-these-android-apps/
 
-This malware sample aims to download a payload which performs information stealing. The malware sample retrieves an executable after waiting a certain period of time and retrieving commands from the C&C server. It then aims to steal SMS messages from the user (an observed behavior, as the server to retrieve the payload was down).
+This malware sample aims to download a payload which performs information stealing. The malware activates on application launch, and a wide variety of system events. The malware sample retrieves an executable after having network connectivity and waiting a certain period of time before retrieving commands from the C&C server. It then aims to steal SMS messages from the user (an observed behavior, as the server to retrieve the payload was down).
 
 ## Signature
 ---

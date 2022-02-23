@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2017
 * Blog: https://securelist.com/mobile-malware-evolution-2016/77681/, https://securelist.com/it-threat-evolution-q3-2016-statistics/76513/
 
-This malware sample aims to perform ransom. The malware checks to ensure the user is in a specific location on boot complete and application launch. It then performs two tasks: (1) requests device admin permissions if not already available, (2) retrieves a command from the C&C server to lock the device into silent mode.
+This malware sample aims to perform ransom. The malware checks to ensure the user is in a specific location on application launch and boot/package system events. It then performs two tasks: (1) requests device admin permissions if not already available, (2) retrieves a command from the C&C server to lock the device into silent mode. This process repeats based on developer-defined events pushed at the end of the routine.
 
 ## Signature
 ---

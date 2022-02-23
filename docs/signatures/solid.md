@@ -14,7 +14,7 @@ nav_exclude: true
 * Year: 2017
 * Blog: https://blog.malwarebytes.com/cybercrime/2017/10/mobile-menace-monday-despicable-adware/
 
-This malware sample aims to perform ad abuse. The malware sample schedules a task to retrieve commands from it's C&C server. It has the ability to open a website link retrieved from the C&C server after a certain time has passed. Otherwise, it aggressively pushes full screen ads to the user. The malware sample also performs privilege abuse by requesting device admin permissions on application launch.
+This malware sample aims to perform ad abuse. On application launch, the malware checks a series of permissions before requesting device admin privileges and registering a developer defined intent. Based on the developer-defined intent, it retrieves commands from the internet which can disruptively push ads to the user. The malware also listens on boot, developer-defined, and package system events that check the device screen status. It then checks a series of time has past since application launch before retrieving commands from the internet that have capabilities to disruptively push ads to the user. 
 
 ## Signature
 ---
