@@ -48,7 +48,7 @@ We further augmented the resulting list with malware detection techniques from s
 
 ---
 
-## Tool Paper Categorization
+# Tool Paper Categorization
 
 We further categorized the identified papers into ten categories:
 
