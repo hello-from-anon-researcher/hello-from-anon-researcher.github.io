@@ -58,7 +58,7 @@ These categories include:
 
 1. Not Malware Detection - Papers irrelevant to malware detection, such as studies on Android bugs, code smells, and software evolution.
 2. Generic Malware - Papers aimed to detect malware by learning features from a large set of benign and malicious applications.
-3. Payload Specific - Tools that target a specific type of payload (ex., info-leak, overlay phishing, privilege escalation)
+3. Payload Specific - Tools that target a specific type of payload (e.g., info-leak, overlay phishing, privilege escalation)
 4. Condition Detection - Tools that focus on conditions that lead to the malicious payload
 5. Forced Execution - Tools that force app execution into the malicious path
 6. Hiding Detection - Tools that flag the difference between app behavior and its presented user interface
