@@ -52,7 +52,8 @@ We further augmented the resulting list with malware detection techniques from s
 
 We further categorized the identified papers into ten categories:
 
-![](../img/tools_mind_map.PNG)
+<!-- ![](../img/tools_mind_map.PNG) -->
+[<img src="../img/tools_mind_map.svg" width="60%"/>](../img/tools_mind_map.svg)
 
 These categories include:
 
