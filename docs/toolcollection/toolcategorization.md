@@ -5,7 +5,11 @@ nav_order: 5
 has_children: false
 permalink: /docs/toolcategorization
 ---
-# Tool Paper Selection
+
+# Tool Categorization
+---
+
+## Tool Paper Selection
 ---
 
 We systematically collected a list of malware detection papers by searching top conferences and journals in software engineering and security (based on CORE ranking and Journal Citation Reports) between 2010 and 2021.
@@ -48,7 +52,7 @@ We further augmented the resulting list with malware detection techniques from s
 
 ---
 
-# Tool Paper Categorization
+## Tool Paper Categorization
 
 We further categorized the identified papers into ten categories:
 
