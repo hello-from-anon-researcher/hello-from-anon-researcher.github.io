@@ -54,15 +54,13 @@ We further augmented the resulting list with malware detection techniques from s
 
 ## Tool Paper Categorization
 
-We further categorized the identified papers into ten categories:
+We categorized the identified papers into ten categories. We describe the categories below and provide the number of papers in each category. 
 
 <!-- ![](../img/tools_mind_map.PNG) -->
 [<img src="../img/tools_mind_map.svg" width="70%"/>](../img/tools_mind_map.svg)
 
-These categories include:
-
 1. Not Malware Detection - Android research irrelevant to malware detection, such as tools for testing, detecting bugs, documentation, code recommendation, etc.
-2. Generic Malware - Tools that detect malware by learning features from a large set of benign and malicious applications.
+2. Generic Malware - Tools that detect any type of malware by establishing similarity with a set of known malicious and benign applications (e.g., via machine learning, signature detection, etc.)
 3. Payload Specific - Tools that target a specific type of payload (e.g., info-leak, overlay phishing, privilege escalation)
 4. Condition Detection - Tools that focus on conditions that lead to the malicious payload
 5. Forced Execution - Tools that force app execution into the malicious path
@@ -72,6 +70,6 @@ These categories include:
 9. Repackaged Malware - Tools that detect repackaged apps
 10. Inter App Attacks - Tools that detect apps colluding together to perform an attack
 
-Detailed list of papers in each category can be found in this [excel file](../../../assets/data/excelsheets/Tools.xlsx).
+[A detailed list of papers in each category can be found in this excel file](../../../assets/data/excelsheets/Tools.xlsx).
 
 ---
