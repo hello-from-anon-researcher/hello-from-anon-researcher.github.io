@@ -70,6 +70,6 @@ We categorized the identified papers into ten categories. We describe the catego
 9. Repackaged Malware - Tools that detect repackaged apps
 10. Inter App Attacks - Tools that detect apps colluding together to perform an attack
 
-[A detailed list of papers in each category can be found in this excel file](../../../assets/data/excelsheets/Tools.xlsx).
+A detailed list of papers in each category can be found in [this excel file](../../../assets/data/excelsheets/Tools.xlsx).
 
 ---
